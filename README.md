@@ -1,23 +1,18 @@
-# [Redux Todo App](https://todos-8kpqmevca-rkodirkhonov.vercel.app/)
+# Redux Todo App
 
-This project is a simple todo app built using React, Redux, and Redux Toolkit.
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://todos-8kpqmevca-rkodirkhonov.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-blue)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/Redux-v4.0.5-purple.svg)](https://redux.js.org/)
 
-## Steps to create:
+![Redux Todo App Screenshot](path_to_screenshot_image.png)
 
-1. Set up a new React application.
-2. Install necessary dependencies: Redux and Redux Toolkit.
-3. Define the Redux logic:
-   a. Create a slice for todos that includes reducers to add, toggle, and remove todos.
-   b. Configure the Redux store to use the todo slice.
-4. Build the UI components:
-   a. Create input and button elements to add new todos.
-   b. Display the list of todos.
-   c. Add interactivity: toggle todos as completed, and remove todos.
-5. Integrate the Redux store with the React app using the Provider component.
+> A robust and interactive [Todo application](https://todos-8kpqmevca-rkodirkhonov.vercel.app/), elegantly built with React, Redux, and Redux Toolkit.
 
-## Running the app:
+## 🚀 Features
 
-1. Install all dependencies using `npm install`.
-2. Run the app in development mode with `npm start`.
-
-Enjoy your todo app built with Redux and Redux Toolkit!
+- Add new tasks with a single click.
+- Instantly mark tasks as completed or pending.
+- Swiftly remove any task.
+- Efficiently manage state with Redux Toolkit.
+- Minimalistic, yet stylish user interface.
