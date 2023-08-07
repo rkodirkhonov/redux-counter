@@ -1,26 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  increment,
-  decrement,
-  reset,
-  selectCount,
-} from "./features/counterSlice";
+import { addTodo, toggleTodo, removeTodo } from "./features/todoSlice";
 
 function App() {
-  const count = useSelector(selectCount);
+  const todos = useSelector((state) => state.todos);
   const dispatch = useDispatch();
+  const [input, setInput] = useState("");
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Redux Counter</h1>
-        <h2>{count}</h2>
-        <button onClick={() => dispatch(increment())}>Increment</button>
-        <button onClick={() => dispatch(decrement())}>Decrement</button>
-        <button onClick={() => dispatch(reset())}>Reset</button>
-      </header>
+      <input
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        placeholder="Enter todo..."
+      />
+      <button
+        onClick={() => {
+          dispatch(addTodo(input));
+          setInput("");
+        }}
+      >
+        Add Todo
+      </button>
+
+      <ul>
+        {todos.map((todo) => (
+          <li key={todo.id}>
+            <span
+              onClick={() => dispatch(toggleTodo(todo.id))}
+              style={{
+                textDecoration: todo.completed ? "line-through" : "none",
+              }}
+            >
+              {todo.text}
+            </span>
+            <button onClick={() => dispatch(removeTodo(todo.id))}>
+              Delete
+            </button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
