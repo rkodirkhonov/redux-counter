@@ -7,7 +7,7 @@
 
 ![Redux Todo App Screenshot](path_to_screenshot_image.png)
 
-> A robust and interactive [Todo application](https://todos-8kpqmevca-rkodirkhonov.vercel.app/), elegantly built with React, Redux, and Redux Toolkit.
+> A robust and interactive [Todo application](https://todos-rkodirkhonov.vercel.app/), elegantly built with React, Redux, and Redux Toolkit.
 
 ## 🚀 Features
 
