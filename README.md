@@ -5,7 +5,7 @@
 [![Made with React](https://img.shields.io/badge/Made%20with-React-blue)](https://reactjs.org/)
 [![Redux](https://img.shields.io/badge/Redux-v4.0.5-purple.svg)](https://redux.js.org/)
 
-![Redux Todo App Screenshot](path_to_screenshot_image.png)
+![Redux Todo App Screenshot](https://github.com/rkodirkhonov/redux-practice-projects/blob/redux-todos/todos.png)
 
 > A robust and interactive [Todo application](https://todos-rkodirkhonov.vercel.app/), elegantly built with React, Redux, and Redux Toolkit.
 
