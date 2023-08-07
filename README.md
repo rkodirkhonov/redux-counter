@@ -2,8 +2,7 @@
 
 A simple, intuitive counter application that showcases the power and simplicity of Redux Toolkit combined with React.
 
-![screenshot of the application](path_to_a_screenshot.png)
-*Replace `path_to_a_screenshot.png` with the path to an actual screenshot of your app for a visual appeal.*
+![screenshot of the application](https://github.com/rkodirkhonov/redux-practice-projects/blob/redux-counter/counter.png)
 
 ## Table of Contents
 
