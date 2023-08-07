@@ -9,9 +9,6 @@ A simple, intuitive counter application that showcases the power and simplicity 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
